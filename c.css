@@ -1,0 +1,170 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+width: 100%;
+height: 100vh;
+    background:linear-gradient(deeppink, purple) !important;
+
+}
+
+#sidebar{
+   margin-left: 30px;
+   border: 2px solid gray;
+   margin-top: 15px;
+   box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    text-align: center;
+    height: 70vh;
+}
+.content{
+ min-height: 100vh;
+width: 100%;
+
+}
+#profile{
+width: 14rem;
+height: 14rem;
+margin-bottom: 12rem;
+
+}
+
+#nav{
+
+color: whitesmoke;
+font-size: 20px;
+margin-left: 5rem;
+margin-bottom: 10px;
+
+}
+.navbar{
+width: 280px;
+height: 100vh;
+position: fixed;
+
+
+
+}
+.name{
+text-decoration: none;
+text-transform: capitalize;
+padding-bottom: 200px;
+
+}
+
+.img-fluid{
+padding-bottom: 180px;
+
+
+}
+#sidebar{
+border-radius: 5px;
+top: 15px;
+height: 46rem;
+left: 25px;
+}
+.nav-link{
+text-transform: capitalize;
+margin: 5px;
+    font-size: 1.2rem;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 12px;
+   bottom: 5px;
+ 
+}
+#profile{
+margin-bottom: 5rem;
+padding-left: 4rem;
+
+
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover   {
+
+background-color: rgb(137, 31, 31);
+
+}
+
+.dropdown-menu{
+
+    background-color: rgb(226, 43, 128);
+}
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover   {
+background-color: aliceblue;
+}
+/*HOME*/
+#home{
+
+width: 50rem;
+border: 3px solid grey;
+height: 34rem;
+margin-top: 5rem !important;
+margin-left: 35rem;
+position: fixed;
+
+}
+.text-wrapper{ 
+position: relative;
+top: 30px;
+
+}
+.text-wrapper h2{
+padding: 0;
+margin: 0;
+color: white;
+text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+font-size: 50px;
+
+}
+
+.text-wrapper a{
+color: white;
+text-decoration: none;
+padding: 10px 25px;
+display: inline-block;
+border-radius: 5px;
+margin-top: 30px;
+
+}
+span::before{
+content: "";
+animation: animate 6s infinite;
+
+}
+@keyframes animate {
+
+0%{
+    content: 'web developer';
+}
+20%{
+    content: 'graphic designer';
+}
+40%{
+    content: 'freelancer';
+}
+60%{
+    content: 'web developer';
+}
+80%{
+    content: 'fullstack ';
+}
+100%{
+    content: 'jack of all trades';
+}
+}
+
+
+
+
+
+
+
+
